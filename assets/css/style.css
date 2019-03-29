@@ -1,0 +1,34 @@
+body {
+    background-image: url("assets/images/cosmic.jpg");
+    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+#cosmic {
+    width: 100%;
+    margin: auto;
+}
+
+#hangman {
+    float: right;
+}
+
+#container {
+    position: absolute;
+    top: 425px;
+    height: 800px;
+    width: 100%;
+    background-color: darkblue;
+    border: white solid thick;
+}
+
+#rules {
+    font-size: 60px;
+}
+
+#current {
+    letter-spacing: 10px;
+}
